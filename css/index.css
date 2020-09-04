@@ -49,7 +49,9 @@ table {
 
 * {
     box-sizing: border-box;
+    text-decoration:none;
 }
+
 
 html, body {
     height: 100%;
@@ -144,3 +146,96 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.headcontain {
+    width:800px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+}
+
+header nav a {
+    margin-top: 3%;
+    color:black;
+}
+
+.headimg2 {
+    margin-bottom:4%;
+}
+
+
+#box1 {
+    background-color:teal;
+}
+
+#box2 {
+    background-color:gold;
+}
+
+#box3 {
+    background-color:cadetblue;
+}
+
+#box4 {
+    background-color:coral;
+}
+
+#box5 {
+    background-color:crimson;
+}
+
+#box6 {
+    background-color:forestgreen;
+}
+
+#box7 {
+    background-color:darkorchid;
+}
+
+#box8 {
+    background-color:hotpink;
+}
+
+#box9 {
+    background-color:indigo;
+}
+
+#box10 {
+    background-color:dodgerblue;
+}
+
+.about1 {
+    border-bottom: dashed black 1px;
+    padding-bottom:2%;
+    margin-bottom:3%;
+}
+
+.mid-content {
+display:flex;
+line-height: 2;
+}
+
+.mid-content div {
+    border-bottom:dashed 1px black;
+    margin-bottom: 10%;
+    width: 45%;
+}
+ .left {
+     margin-left:10%;
+ }
+
+.mid-content a {
+    color:black;
+    border:black solid 2px;
+    border-radius:10px;
+    padding:2% 3%;
+    display:inline-block;
+    margin-bottom:20%;
+    margin-top:5%;
+}
+
